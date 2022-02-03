@@ -18,34 +18,32 @@ public class HomeWorkApp {
         int a = 0;
         int b = 1;
         int c = a + b;
-        if (c>=0) {
+        if (c >= 0) {
             System.out.println("Сумма положительная");
-        }
-        else{
+        } else {
             System.out.println("Сумма отрицательная");
         }
     }
 
-    public static void printColor(){
+    public static void printColor() {
         int value = 100;
-        if (value<=0) {
+        if (value <= 0) {
             System.out.println("Красный");
         }
-        if (value>0 && value<=100){
+        if (value > 0 && value <= 100) {
             System.out.println("Желтый");
         }
-        if(value>100){
+        if (value > 100) {
             System.out.println("Зеленый");
         }
     }
 
-    public static void compareNumbers(){
+    public static void compareNumbers() {
         int a = 5;
         int b = 4;
-        if (a>=b) {
+        if (a >= b) {
             System.out.println("a>=b");
-        }
-        else {
+        } else {
             System.out.println("a<b");
         }
     }
